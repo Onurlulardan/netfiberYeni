@@ -1,0 +1,11 @@
+.frameCover {
+    @apply
+    w-full h-full
+    min-h-[1000px]
+    md:min-h-[1500px]
+    sm:min-h-[1800px]
+}
+.frameCover > #app {
+    @apply
+    mt-0
+}

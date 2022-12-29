@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34">
+  <g id="Group_1473" data-name="Group 1473" transform="translate(-421 -1450)">
+    <g id="vuesax_bulk_unlimited" data-name="vuesax/bulk/unlimited" transform="translate(252.452 1137.452)">
+      <g id="unlimited" transform="translate(172 316)">
+        <path id="Vector" d="M0,0H27.1V27.1H0Z" transform="translate(27.096 27.096) rotate(180)" fill="none" opacity="0"/>
+      </g>
+    </g>
+    <g id="Group_8254" data-name="Group 8254">
+      <path id="Path_2887" data-name="Path 2887" d="M17,0C30.194,0,34,3.806,34,17S30.194,34,17,34,0,30.194,0,17,3.806,0,17,0Z" transform="translate(421 1450)" fill="#f9f7fa"/>
+      <g id="rotate-circle" transform="translate(-2746 -1349)">
+        <rect id="Frame" width="24" height="24" transform="translate(3172 2804)" fill="#84629f" opacity="0"/>
+        <path id="rotate-circle-2" data-name="rotate-circle" d="M3189.07,2817.307a5.223,5.223,0,0,1-8.82,2.349V2820a.75.75,0,0,1-1.5,0v-2.5a.75.75,0,0,1,.75-.75h2.5a.75.75,0,0,1,0,1.5h-1a3.735,3.735,0,0,0,6.61-1.307.75.75,0,1,1,1.455.364Zm-.57-6.057a.75.75,0,0,0-.75.75v.344a5.223,5.223,0,0,0-8.82,2.349.75.75,0,0,0,.546.91.758.758,0,0,0,.182.022.75.75,0,0,0,.727-.568,3.735,3.735,0,0,1,6.61-1.307h-1a.75.75,0,0,0,0,1.5h2.5a.75.75,0,0,0,.75-.75V2812A.75.75,0,0,0,3188.5,2811.25Zm6.25,4.75a10.75,10.75,0,1,1-10.75-10.75A10.762,10.762,0,0,1,3194.75,2816Zm-1.5,0a9.25,9.25,0,1,0-9.25,9.25A9.26,9.26,0,0,0,3193.25,2816Z" fill="#84629f"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,59 @@
+.aboutSection {
+    @apply
+    container mx-auto
+    mt-[120px]
+}
+.aboutTop {
+    @apply
+    flex flex-col gap-[140px]
+    sm:gap-[80px]
+}
+.aboutTextwithImg {
+    @apply
+    flex gap-7
+    md:flex-wrap sm:flex-wrap
+    sm:justify-center
+}
+.aboutTextwithImgbottom {
+    @apply
+    sm:flex-wrap-reverse
+}
+.aboutTextwithImg > img {
+    @apply
+    max-w-[540px] max-h-[360px]
+    rounded-xl
+    sm:max-w-[343px]
+}
+.aboutText > h1 {
+    @apply
+    font-OpenSans font-semibold
+    text-lacivert text-[32px] leading-[44px]
+    mb-4
+    sm:text-[22px]
+}
+.aboutText > p {
+    @apply
+    font-OpenSans font-normal
+    text-lacivert text-base
+}
+.aboutBottom {
+    @apply
+    flex gap-7 mt-[90px]
+    md:flex-wrap sm:flex-wrap
+}
+.aboutBottomText > h1 {
+    @apply
+    font-OpenSans font-semibold
+    text-lacivert text-[32px] leading-[44px]
+    mb-4
+}
+.aboutBottomText > p {
+    @apply
+    max-w-[540px]
+}
+.aboutBottomText > ul > li {
+    @apply
+    font-OpenSans font-normal
+    text-lacivert text-base
+    pb-5
+}

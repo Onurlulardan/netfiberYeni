@@ -1,0 +1,116 @@
+.pageHeader {
+    @apply
+    container mx-auto
+    my-10
+}
+.pageContent {
+    @apply
+    container mx-auto
+    flex gap-7 mt-[45px]
+    md:flex-wrap sm:flex-wrap
+}
+.contentTextHeader > h1 {
+    @apply
+    font-Ubuntu font-bold
+    text-mavi text-2xl
+    mb-5
+}
+.contentTextHeader > p {
+    @apply
+    font-Ubuntu font-normal
+    text-black text-base
+    pb-7 max-w-[445px]
+    border-b border-b-[#E2E5EF]
+}
+.contentTextItem {
+    @apply
+    mt-6
+}
+.contentTextItem > h1 {
+    @apply
+    font-Ubuntu font-medium
+    text-mavi text-base
+    mb-3 pt-3
+}
+.contentTextItem > a {
+    @apply
+    font-Ubuntu font-normal
+    text-black text-base
+     max-w-[306px] 
+}
+.contentTextItem > p {
+    @apply
+    font-Ubuntu font-normal
+    text-black text-base
+     max-w-[306px] 
+}
+.contentTextItemMap {
+    @apply
+    font-OpenSans font-normal
+    text-[#0C1350] text-base leading-8
+    border border-[#C3CAE0] rounded-[23px]
+    p-2 pb-2
+}
+.contentTextItem > a > i {
+    @apply
+    text-[#9FA7C0] pl-4
+    cursor-pointer
+}
+.contentForm {
+    @apply
+    max-w-[440px] w-[440px]
+    mt-12
+    sm:w-full md:w-full
+}
+.contentForm > label {
+    @apply
+    block mb-3
+}
+.contentForm > label > p {
+    @apply
+    font-Ubuntu font-normal
+    text-sm text-[#76797C]
+    block pb-2 
+}
+.contentForm > label > input {
+    @apply
+    w-full h-[50px]
+    border border-[#DDDFE7]
+    rounded-[9px]
+    p-2
+}
+.contentForm > label > textarea {
+    @apply
+    w-full min-h-[155px] 
+    border border-[#DDDFE7]
+    rounded-[9px]
+    p-2
+}
+.contentForm > div > button {
+    @apply
+    bg-mavi
+    p-4
+    font-Ubuntu font-medium
+    text-white text-base
+    border border-mavi rounded-[9px]
+    w-[215px]
+    flex justify-center items-center
+    mt-8
+    hover:bg-white
+    hover:text-mavi
+    focus:border-white
+    shadow-[0_3px_6px_0px_rgba(0,70,126,0.15)]
+}
+.pagerSocialIcon {
+    @apply
+    flex gap-3 mt-[33px]
+}
+.pagerSocialIcon > a > div {
+    @apply
+    w-[30px] h-[30px] rounded-[50%]
+    border border-[#C3CAE0]
+    flex justify-center items-center
+    text-[#C3CAE0]
+    hover:bg-mavi
+    hover:border-mavi
+}

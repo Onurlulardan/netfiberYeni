@@ -1,0 +1,93 @@
+.buyForm {
+    @apply
+    p-4
+    max-w-[720px]
+    bg-white
+    border border-[#DDDFE7] rounded-[13px]
+    flex gap-5
+}
+.modalImg  {
+    @apply
+    w-[260px]
+    h-[470px]
+    md:hidden sm:hidden
+}
+.modalImg > img {
+    @apply
+    w-full h-full
+    object-contain
+}
+.modalFormHeaderCover {
+    @apply
+    flex justify-between 
+}
+.bundleFormTextHeader {
+    @apply
+    font-Ubuntu font-medium
+    text-base text-lacivert leading-6
+    mb-5 max-w-[222px]
+}
+.modalFormHeaderCloseBtn {
+    @apply
+    text-[22px] text-[#DDDFE7] cursor-pointer
+}
+.bundleFormText {
+    @apply
+    font-Ubuntu font-normal
+    text-sm leading-[54px] 
+    text-[#76797C]
+}
+.bundleFormInput {
+    @apply
+    flex flex-col gap-4
+}
+.bundleFormInput > label > input {
+    @apply
+    border border-[#DDDFE7]
+    rounded-[9px]
+    w-full pl-6
+    h-12
+}
+.bundleFormInput > label > p {
+    @apply
+    font-Ubuntu font-normal
+    text-sm leading-5
+    text-[#76797C]
+    mb-2
+}
+.bundleFormInputCheckbox {
+    @apply
+    flex items-center
+}
+.bundleFormInputCheckbox > input {
+    @apply
+    rounded-[7px]
+    w-5 h-5 
+    mr-1
+    appearance-none bg-white
+    border border-[#76797C]
+    checked:bg-[#1559A6]
+    checked:border-[#1559A6]
+    outline-none
+    cursor-pointer
+    text-white
+    text-center leading-[100%]
+    checked:before:content-["✓"]
+}
+.bundleFormInputCheckbox > a {
+    @apply
+    font-Ubuntu font-medium
+    text-lacivert text-[14px] leading-6
+}
+.bundleFormButton {
+    @apply
+    mt-[30px] mb-10
+}
+.bundleFormButton > button {
+    @apply
+    py-4 px-20
+    bg-mavi
+    text-white text-base
+    font-Ubuntu font-medium
+    rounded-[9px] outline-none
+}

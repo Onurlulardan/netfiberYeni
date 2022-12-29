@@ -1,0 +1,148 @@
+.buySection {
+    @apply
+    container mx-auto
+    mt-[50px]
+    flex gap-[135px] flex-wrap-reverse items-end
+    md:justify-center sm:justify-center
+    md:gap-9 sm:gap-9
+}
+
+/* Form */
+.buyForm {
+    @apply
+    px-8
+    max-w-[445px]
+    bg-white
+    border border-[#DDDFE7] rounded-[13px]
+}
+.bundleFormTextHeader {
+    @apply
+    font-Ubuntu font-medium
+    text-base text-lacivert leading-6
+    pt-5 mb-5
+}
+.bundleFormText {
+    @apply
+    font-Ubuntu font-normal
+    text-sm leading-[54px] 
+    text-[#76797C]
+}
+.bundleFormInput {
+    @apply
+    flex flex-col gap-4
+}
+.bundleFormInput > label > input {
+    @apply
+    border border-[#DDDFE7]
+    rounded-[9px]
+    w-full pl-6
+    h-12
+}
+.bundleFormInput > label > p {
+    @apply
+    font-Ubuntu font-normal
+    text-sm leading-5
+    text-[#76797C]
+    mb-2
+}
+.bundleFormInputCheckbox {
+    @apply
+    flex items-center
+}
+.bundleFormInputCheckbox > input {
+    @apply
+    rounded-[7px]
+    w-5 h-5 
+    mr-1
+    appearance-none bg-white
+    border border-[#76797C]
+    checked:bg-[#1559A6]
+    checked:border-[#1559A6]
+    outline-none
+    cursor-pointer
+    text-white
+    text-center leading-[100%]
+    checked:before:content-["✓"]
+}
+.bundleFormInputCheckbox > a {
+    @apply
+    font-Ubuntu font-medium
+    text-lacivert text-[14px] leading-6
+}
+.bundleFormButton {
+    @apply
+    mt-[30px] mb-10
+}
+.bundleFormButton > button {
+    @apply
+    py-4 px-20
+    bg-mavi
+    text-white text-base
+    font-Ubuntu font-medium
+    rounded-[9px] outline-none
+}
+.bundleFormAydinlatmaMetni {
+    @apply
+    font-Ubuntu font-normal
+    text-sm text-[#76797C]
+    pl-5 max-w-[351px]
+}
+
+/* img */
+
+.appylImg {
+    @apply
+    relative max-h-[401px]
+    sm:max-w-[257px]
+}
+.tflame {
+    @apply
+    absolute -left-11 bottom-12
+}
+.tchart {
+    @apply
+    absolute bottom-3 right-0
+}
+.applyUp {
+    @apply
+    absolute top-16 -left-5
+    w-[120px] h-[64px]
+    bg-white rounded-xl
+    shadow-[0_10px_45px_rgba(255,108,2,0.29)]
+    pl-4
+    flex flex-col justify-center
+}
+.applyUp > h5 {
+    @apply
+    text-[#838289] font-Ubuntu font-normal
+    text-xs 
+}
+.applyUp > h5 > i {
+    @apply
+    text-turuncu text-base
+}
+.applyUp  > p {
+    @apply
+    font-Ubuntu font-normal 
+    text-base text-[#2D2D31] 
+    pl-1
+}
+.applyPing {
+    @apply
+    w-[120px] h-[64px]
+    bg-white rounded-xl
+    shadow-[0_10px_45px_rgba(255,108,2,0.29)]
+    flex flex-col justify-center items-center
+    absolute -right-8 bottom-[100px]
+}
+.applyPing > h5 {
+    @apply
+    flex gap-2
+    text-[#838289] font-Ubuntu font-normal
+    text-xs 
+}
+.applyPing > p {
+    @apply
+    font-Ubuntu font-normal 
+    text-base text-[#2D2D31] 
+}

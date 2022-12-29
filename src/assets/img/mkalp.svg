@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="69" height="69" viewBox="0 0 69 69">
+  <g id="Group_8156" data-name="Group 8156" transform="translate(-811.934 -1531.934)">
+    <g id="Icon_Copy_3" data-name="Icon Copy 3" transform="translate(811.934 1531.934)">
+      <rect id="Rectangle" width="69" height="69" rx="34.5" fill="#be57e9" opacity="0.15"/>
+      <g id="Iconly_Bulk_Chart" data-name="Iconly/Bulk/Chart" transform="translate(7.063 7.063)">
+        <rect id="Iconly_Bulk_Chart-2" data-name="Iconly/Bulk/Chart" width="54.874" height="54.874" fill="none"/>
+        <g id="Heart" transform="translate(4.573 6.859)">
+          <path id="Path_34179" d="M22.3,43.07A82.9,82.9,0,0,1,7.833,31.734,28.965,28.965,0,0,1,.9,20.75c-2.6-8.094.427-17.344,8.88-20.09A14.364,14.364,0,0,1,22.83,2.972h0A14.384,14.384,0,0,1,35.876.659c8.454,2.746,11.5,12,8.9,20.09a28.968,28.968,0,0,1-6.889,10.985A83.654,83.654,0,0,1,23.42,43.07l-.569.372Z" transform="translate(0.05 0)" fill="#b743bd" opacity="0.4"/>
+          <path id="Path_34178" d="M22.889,43.441l-.537-.372A83.04,83.04,0,0,1,7.863,31.733,28.961,28.961,0,0,1,.893,20.749C-1.688,12.655,1.34,3.4,9.793.658A14.4,14.4,0,0,1,22.889,3Z" transform="translate(0 0.001)" fill="#b743bd"/>
+          <path id="Path_34180" d="M5.1,9.144h0a1.643,1.643,0,0,1-1.183-.635,1.871,1.871,0,0,1-.382-1.352h0A3.765,3.765,0,0,0,1.261,3.521,1.8,1.8,0,0,1,.05,1.355,1.658,1.658,0,0,1,2.025.043a.876.876,0,0,1,.317.119A7.309,7.309,0,0,1,6.851,7.375a1.846,1.846,0,0,1-.524,1.281A1.618,1.618,0,0,1,5.1,9.144Z" transform="translate(32.01 6.859)" fill="#b743bd"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

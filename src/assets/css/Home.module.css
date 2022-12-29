@@ -1,0 +1,595 @@
+.swiperSection {
+    @apply
+    relative
+}
+/* .myFirstSwiper {
+    @apply
+    xsm:min-h-[520px] xsm:h-full
+} */
+.sliderCover {
+    @apply
+    bg-mavi
+}
+.sliderItem {
+    @apply
+    container mx-auto 
+    relative 
+    xsm:min-h-[520px] xsm:h-full
+    xsm:flex xsm:items-end
+}
+.sliderImgCover {
+    @apply
+    flex justify-end 
+    -mr-[90px]
+    md:justify-center sm:justify-center
+    xsm:h-full 
+}
+.sliderImgCover > img {
+    @apply
+    bg-no-repeat bg-right-bottom 
+    xsm:bg-bottom 
+}
+.sliderText {
+    @apply
+    w-full
+    max-w-[640px]
+    absolute top-[110px] left-0
+    md:top-0
+    sm:left-2/4 sm:-translate-x-2/4 sm:top-[0px]
+    xsm:max-w-[300px]
+}
+.sliderText > h1 {
+    @apply
+    font-OpenSans font-normal 
+    text-[59px] leading-[80px] text-white
+    md:text-[28px] md:leading-10
+    sm:text-[28px] sm:leading-10
+}
+.sliderLink {
+    @apply
+    bg-mavi
+    text-center text-white text-base leading-[54px] font-bold font-OpenSans
+    border border-white rounded-[9px] 
+    shadow-[0_3px_6px_rgba(0,75,126,0.15)] 
+    mt-[40px]
+    block w-[193px] h-[54px]
+    hover:border-white hover:bg-white hover:text-mavi
+}
+.swiperButtonCover {
+    @apply
+    absolute top-[40%] w-full
+    md:hidden sm:hidden
+}
+.swiperPeginationCover {
+    @apply
+    absolute flex justify-center w-full
+    bottom-[30px] h-7  z-10
+}
+
+/* Kampanyalar */
+
+.campainSection {
+    @apply
+    container mx-auto
+}
+.campainHeader {
+    @apply
+    mt-[94px] mb-[66px]
+    text-center text-mavi text-[32px] leading-[44px]
+    font-OpenSans font-semibold 
+}
+.campainItemCover {
+    @apply
+    flex gap-4
+    md:flex-wrap md:justify-center
+    sm:flex-wrap sm:justify-center
+}
+.campainSliderItem {
+    @apply
+    flex gap-7
+    border border-[#DDDFE7] rounded-[13px]
+    w-full max-w-[540px]
+    sm:flex-wrap sm:justify-center
+    sm:gap-0 sm:max-w-[343px]
+    sm:pb-5
+}
+.campainSliderImg {
+    @apply
+    max-w-[285px] max-h-[466px]
+    sm:max-w-[343px]
+}
+.campainSliderImg > img {
+    @apply
+    rounded-l-[13px] 
+    sm:rounded-t-[13px] sm:rounded-l-[0px] 
+    sm:w-full 
+}
+.campainSliderImgPc {
+    @apply
+    sm:hidden
+}
+.campainSliderImgMobile {
+    @apply
+    hidden
+    sm:block 
+}
+.campainInfoHeader {
+    @apply
+    border-b border-b-[#DDDFE7]
+    mb-3
+}
+.campainInfoHeader > h1 {
+    @apply
+    mt-[30px] mb-[0px]
+    font-OpenSans font-bold 
+    text-2xl 
+}
+.campainInfoHeader > h6 {
+    @apply
+    font-OpenSans font-semibold
+    text-[#76797C] 
+    flex items-center
+}
+.campainInfoCover {
+    @apply
+    flex flex-col gap-6
+}
+.campainInfoItem {
+    @apply
+    flex gap-4
+}
+.campainInfoText > h3 {
+    @apply
+    font-OpenSans font-bold
+    text-lacivert text-base
+}
+.campainInfoText > p {
+    @apply
+    font-OpenSans font-normal
+    text-sm text-[#76797C]
+}
+.campainInfoBtn {
+    @apply
+    border border-turuncu
+    flex justify-center
+    rounded-[9px] h-[54px]
+    font-OpenSans font-semibold leading-[54px]
+    text-turuncu
+    hover:bg-turuncu hover:text-white
+    mt-[20px]
+}
+.campainInfoBtnM {
+    @apply
+    border border-mor
+    flex justify-center
+    rounded-[9px] h-[54px]
+    font-OpenSans font-semibold leading-[54px]
+    text-mor
+    hover:bg-mor hover:text-white
+    mt-[20px]
+}
+
+/* Apply Section */
+
+.applySection {
+    @apply
+    container mx-auto
+    mt-[135px]
+}
+.applyCover {
+    @apply
+    flex gap-20 justify-center items-center
+    md:flex-wrap-reverse 
+    sm:flex-wrap-reverse sm:justify-end
+}
+.applyText {
+    @apply
+    flex flex-col items-end justify-center
+    gap-8
+    md:items-center sm:items-center
+}
+.applyText > h1 {
+    @apply
+    font-OpenSans font-bold
+    text-mavi text-[28px] leading-10
+    max-w-[409px] text-end
+    md:text-center sm:text-center
+}
+.applyText > a {
+    @apply
+    bg-turuncu w-[188px] h-[54px]
+    flex items-center justify-center
+    rounded-[9px]
+    text-white font-OpenSans font-semibold text-base
+    shadow-[0_3px_6px_rgba(0,75,126,0.15)] 
+    border border-turuncu
+    hover:bg-white hover:text-mavi hover:border-mavi
+    focus:border-white
+}
+.appylImg {
+    @apply
+    relative max-h-[401px]
+    sm:max-w-[261px] sm:mr-6
+}
+.mkalp {
+    @apply
+    absolute top-5 -left-[100px]
+    sm:-left-[100px]
+}
+.tflame {
+    @apply
+    absolute -left-11 bottom-12
+    /* sm:-left-[38px] */
+}
+.tchart {
+    @apply
+    absolute bottom-3 right-0
+}
+.applyUp {
+    @apply
+    absolute top-16 -left-5
+    w-[120px] h-[64px]
+    bg-white rounded-xl
+    shadow-[0_10px_45px_rgba(255,108,2,0.29)]
+    pl-4
+    flex flex-col justify-center
+    sm:w-[78px] sm:h-[45px]
+}
+.applyUp > h5 {
+    @apply
+    text-[#838289] font-Ubuntu font-normal
+    text-xs 
+    sm:text-[7px] sm:leading-[8px]
+}
+.applyUp > h5 > i {
+    @apply
+    text-turuncu text-base
+    sm:text-[10px] sm:leading-[8px]
+}
+.applyUp  > p {
+    @apply
+    font-Ubuntu font-normal 
+    text-base text-[#2D2D31] 
+    pl-1 
+    sm:text-[9px] sm:leading-[18px]
+}
+.applyPing {
+    @apply
+    w-[120px] h-[64px]
+    bg-white rounded-xl
+    shadow-[0_10px_45px_rgba(255,108,2,0.29)]
+    flex flex-col justify-center items-center
+    absolute -right-8 bottom-[100px]
+    sm:w-[78px] sm:h-[45px]
+}
+.applyPing > h5 {
+    @apply
+    flex gap-2
+    text-[#838289] font-Ubuntu font-normal
+    text-xs 
+    sm:text-[7px] sm:leading-[8px]
+    sm:gap-1
+}
+.applyPing > h5 > img {
+    @apply
+    sm:w-[7px]
+}
+.applyPing > p {
+    @apply
+    font-Ubuntu font-normal 
+    text-base text-[#2D2D31] 
+    sm:text-[9px] sm:leading-[18px]
+}
+
+/* invite Section */
+
+.inviteSection {
+    @apply
+    container mx-auto
+    mt-14
+    flex justify-center items-center
+    max-h-[627px]
+    md:flex-wrap md:gap-7
+    sm:flex-wrap sm:gap-7
+    md:mb-[80px] sm:mb-[80px]
+}
+.inviteSection > img {
+    @apply
+    bg-no-repeat
+}
+.inviteText {
+    @apply
+    flex flex-col justify-center 
+    h-full 
+    md:items-center sm:items-center
+    md:text-center sm:text-center
+}
+.inviteText > h1 {
+    @apply
+    font-OpenSans font-bold
+    text-[28px] leading-10 text-mavi
+}
+.inviteText > p {
+    @apply
+    font-OpenSans font-normal
+    text-[#7A7A7A] text-base 
+    mt-4 mb-9 
+}
+.inviteText > a {
+    @apply
+    w-[231px] h-[54px]
+    border border-[#DDDFE7] rounded-[9px]
+    font-OpenSans font-semibold
+    text-base text-[#76797C]
+    flex items-center justify-center
+}
+
+/* Info Section */
+
+.infoSection {
+    @apply
+    container mx-auto
+    mt-[50px]
+    flex gap-7 flex-wrap
+    md:justify-center sm:justify-center
+}
+.infoItem {
+    @apply
+    flex flex-col gap-4
+    border border-[#DDDFE7] rounded-[10px]
+    max-w-[255px] h-[303px] justify-center px-5
+    hover:bg-mavi hover:border-mavi
+}
+.infoItem > img {
+    @apply
+    w-20 h-20
+}
+.infoItem > h1 {
+    @apply
+    font-OpenSans font-bold
+    text-[22px] text-mavi leading-8
+}
+.infoItem > p {
+    @apply
+    font-OpenSans font-semibold
+    text-base text-[#6E727D] 
+}
+.infoIconBgOutline {
+    @apply
+    w-20 h-20
+    bg-turuncu/[.09] rounded-[50%]
+    flex justify-center items-center
+}
+.infoIconBg {
+    @apply
+    w-[60px] h-[60px] rounded-[50%]
+    bg-turuncu
+    flex justify-center items-center
+}
+
+/* Altyapi Section */
+
+.altyapiSection {
+    @apply
+    container mx-auto
+    mt-[140px]
+    md:mt-8 sm:mt-8
+}
+.altyapiCover {
+    @apply
+    flex justify-between items-center
+    rounded-[10px] max-h-[192px] px-4
+    bg-mavi
+    md:flex-wrap sm:flex-wrap
+    md:max-h-full sm:max-h-full
+    md:justify-center sm:justify-center
+}
+.altyapiCover > img {
+    @apply
+    pb-8 max-w-[431px]
+    md:max-w-[363px] sm:max-w-[363px]
+    md:max-h-[240px] sm:max-h-[240px]
+    md:-mt-6 sm:-mt-6
+}
+.altyapiText {
+    @apply
+    max-w-[304px] flex flex-col gap-5
+    md:max-w-full sm:max-w-full
+    md:w-full sm:w-full
+    md:mb-7 sm:mb-7
+    md:gap-0 sm:gap-0
+    md:text-center
+}
+.altyapiText > h1 {
+    @apply
+    font-OpenSans font-bold
+    text-[32px] leading-[44px] text-white
+    md:text-[24px] sm:text-[24px]
+}
+.altyapiText > p {
+    @apply
+    font-Ubuntu font-normal
+    text-base text-white
+    md:text-[14px] sm:text-[14px]
+}
+.altyapiBtn {
+    @apply
+    flex w-[170px] h-[54px] justify-center items-center
+    bg-turuncu
+    text-white
+    font-OpenSans font-semibold
+    text-base
+    rounded-[9px] 
+    hover:text-mavi hover:bg-white
+    mr-16
+    md:mr-0 sm:mr-0
+    md:mb-4 sm:mb-4
+}
+.altyapiBtn > a {
+    @apply
+    flex 
+}
+.altyapiBtn > a > img {
+    @apply
+    pr-1 w-[24px] h-[24px]
+}
+
+/* second Swiper */
+
+.secondSliderSection {
+    @apply
+    container mx-auto relative
+    mt-[120px]
+}
+.secondSliderHeader {
+    @apply
+    font-OpenSans font-semibold
+    text-[32px] text-lacivert leading-[44px]
+    text-center
+    md:text-[22px] sm:text-[22px]
+}
+.secondSliderItem {
+    @apply
+    max-w-[540px] 
+    rounded-xl bg-white
+    shadow-[0_10px_30px_rgba(21,89,166,0.20)] 
+    p-4 my-10
+    md:max-w-full sm:max-w-full
+    /* min-h-[613px] */
+}
+.puan {
+    @apply
+    bg-[#479A5F] rounded-lg
+    font-Ubuntu font-medium
+    text-lg text-white
+    w-[77px] h-[37px] 
+    flex justify-center items-center gap-2
+    mb-7
+}
+.secondSliderItem > p {
+    @apply
+    font-OpenSans font-normal
+    text-base text-[#7A7A7A]
+    mb-7 max-w-[494px] max-h-[70px] overflow-hidden
+}
+.secondSliderItem > h4 {
+    @apply
+    font-OpenSans font-semibold
+    text-lacivert text-[22px] leading-[35px]
+}
+.secondSliderItem > h5 {
+    @apply
+    font-OpenSans font-semibold
+    text-turuncu text-[15px] leading-[35px]
+}
+.secondSwiperPeginationCover {
+    @apply
+    absolute
+    left-2/4 -translate-x-2/4
+}
+
+/* Map Section */
+
+.mapSection {
+    @apply
+    container mx-auto
+    mt-[130px]
+    flex gap-16
+    md:flex-wrap-reverse sm:flex-wrap-reverse
+}
+.mapText {
+    @apply
+    max-w-[360px]
+    md:max-w-full sm:max-w-full
+    md:text-center sm:text-center
+}
+.mapText > h1 {
+    @apply
+    font-OpenSans font-bold
+    text-mavi text-[28px] leading-10
+    mt-7
+}
+.mapText > p {
+    @apply
+    font-OpenSans font-normal
+    text-lacivert text-base
+    max-w-[360px]
+    mt-[20px] mb-[30px]
+    md:max-w-full sm:max-w-full
+}
+.mapText > a {
+    @apply
+    flex justify-center items-center
+    w-[194px] h-[54px] rounded-[9px]
+    border border-[#1559A6]
+    bg-[#1559A6]
+    shadow-[0_3px_6px_rgba(0,75,126,0.15)] 
+    font-OpenSans font-semibold
+    text-base text-white
+    hover:bg-white hover:text-[#1559A6]
+    focus:border-white
+    delay-75
+    mx-auto
+}
+
+/* SSS Secition */
+
+.sssSection {
+    @apply
+    container mx-auto
+    mt-[120px]
+}
+.sssHeader {
+    @apply
+    font-OpenSans font-semibold
+    text-mavi text-[32px] leading-[44px]
+    text-center mb-[60px]
+}
+.sssAccordionCover {
+    @apply
+    flex flex-col items-center justify-center
+     w-full
+}
+.sssAccordionItem {
+    @apply
+    flex flex-col max-w-[728px] w-full
+    border-t-[1px] border-[#DDDFE7]
+    cursor-pointer
+}
+.sssAccordionTop {
+    @apply
+    py-[30px]
+    flex justify-between w-full
+}
+.sssAccordionHeader {
+    @apply
+    font-OpenSans font-semibold
+    text-lacivert text-[22px] leading-8
+}
+.sssAccordionIcon {
+    @apply
+    text-[#DDDFE7]
+}
+.sssAccordionContent {
+    @apply
+    font-OpenSans font-normal
+    text-lacivert text-sm
+    border-t-[1px] border-[#DDDFE7]
+    py-[22px]
+}
+
+/* Modal From */
+
+.modalformCover {
+    @apply
+    fixed z-50
+    top-[100px] left-2/4 -translate-x-2/4
+    h-screen
+}
+
+@media only screen and (max-width: 1200px) {
+    .swiperButtonCover {
+        @apply
+        hidden
+    }
+}

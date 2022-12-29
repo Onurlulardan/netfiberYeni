@@ -1,0 +1,138 @@
+.campainSection {
+    @apply
+    container mx-auto
+    mt-[94px]
+}
+.campainItemCover {
+    @apply
+    flex gap-4 
+    md:flex-wrap sm:flex-wrap
+    md:justify-center sm:justify-center
+}
+.campainSliderItem {
+    @apply
+    flex gap-7
+    border border-[#DDDFE7] rounded-[13px]
+    w-full max-w-[540px]
+    sm:flex-wrap sm:justify-center
+    sm:gap-0 sm:max-w-[343px]
+    sm:pb-5
+}
+.campainSliderImg {
+    @apply
+    max-w-[285px] max-h-[466px]
+    sm:max-w-[343px]
+}
+.campainSliderImg > img {
+    @apply
+    rounded-l-[13px]
+    sm:rounded-t-[13px] sm:rounded-l-[0px] 
+    sm:w-full 
+}
+.campainSliderImgPc {
+    @apply
+    sm:hidden
+}
+.campainSliderImgMobile {
+    @apply
+    hidden
+    sm:block 
+}
+.campainInfoHeader {
+    @apply
+    border-b border-b-[#DDDFE7]
+    mb-3
+}
+.campainInfoHeader > h1 {
+    @apply
+    mt-[30px] mb-[0px]
+    font-OpenSans font-bold 
+    text-2xl 
+}
+.campainInfoHeader > h6 {
+    @apply
+    font-OpenSans font-semibold
+    text-[#76797C] 
+    flex items-center
+}
+.campainInfoCover {
+    @apply
+    flex flex-col gap-6
+}
+.campainInfoItem {
+    @apply
+    flex gap-4
+}
+.campainInfoText > h3 {
+    @apply
+    font-OpenSans font-bold
+    text-lacivert text-base
+}
+.campainInfoText > p {
+    @apply
+    font-OpenSans font-normal
+    text-sm text-[#76797C]
+}
+.campainInfoBtn {
+    @apply
+    border border-turuncu
+    flex justify-center
+    rounded-[9px] h-[54px]
+    font-OpenSans font-semibold leading-[54px]
+    text-turuncu
+    hover:bg-turuncu hover:text-white
+    mt-[20px]
+}
+.campainInfoBtnM {
+    @apply
+    border border-mor
+    flex justify-center
+    rounded-[9px] h-[54px]
+    font-OpenSans font-semibold leading-[54px]
+    text-mor
+    hover:bg-mor hover:text-white
+    mt-[20px]
+}
+
+/* info section */
+
+.infoSection {
+    @apply
+    container mx-auto
+    mt-[50px]
+    flex gap-7 flex-wrap
+    md:justify-center sm:justify-center
+}
+.infoItem {
+    @apply
+    flex flex-col gap-4
+    border border-[#DDDFE7] rounded-[10px]
+    max-w-[255px] h-[303px] justify-center px-5
+    hover:bg-mavi hover:border-mavi
+}
+.infoItem > img {
+    @apply
+    w-20 h-20
+}
+.infoItem > h1 {
+    @apply
+    font-OpenSans font-bold
+    text-[22px] text-mavi leading-8
+}
+.infoItem > p {
+    @apply
+    font-OpenSans font-semibold
+    text-base text-[#6E727D] 
+}
+.infoIconBgOutline {
+    @apply
+    w-20 h-20
+    bg-turuncu/[.09] rounded-[50%]
+    flex justify-center items-center
+}
+.infoIconBg {
+    @apply
+    w-[60px] h-[60px] rounded-[50%]
+    bg-turuncu
+    flex justify-center items-center
+}

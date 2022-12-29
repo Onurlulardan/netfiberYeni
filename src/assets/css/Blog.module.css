@@ -1,0 +1,121 @@
+.pageContainer {
+    @apply
+    container mx-auto
+    mt-14 rounded-2xl
+}
+.pageContainer > img {
+    @apply
+    max-h-[537px] max-w-[1110px]
+    rounded-2xl
+    md:max-w-full sm:max-w-full
+}
+.pageContainerTextHeader {
+    @apply
+    mt-9 mb-6
+    flex justify-end items-center
+}
+.pageContainerText {
+    @apply
+    max-w-[825px]
+    ml-auto
+}
+.pageContainerTextHeaderSocial {
+    @apply
+    flex gap-3
+}
+.pageContainerTextHeaderSocial > div {
+    @apply
+    text-[#DDDFE7] border border-[#DDDFE7]
+    rounded-[50%] w-[30px] h-[30px]
+    text-center leading-[30px]
+    hover:text-white hover:border-mavi
+    hover:bg-mavi
+}
+.pageText > h1 {
+    @apply
+    font-Ubuntu font-bold
+    text-mavi text-[34px]
+    max-w-[525px] leading-[51px]
+}
+.pageText > p {
+    @apply
+    font-Ubuntu font-normal
+    text-base text-black
+    mt-8
+}
+.pageText > a {
+    @apply
+    block leading-[50px] text-center
+    w-[250px] h-[50px]
+    font-Ubuntu font-medium
+    text-white text-base bg-mavi
+    rounded-[9px] mt-[45px]
+}
+.pageTextImage {
+    @apply
+    flex flex-wrap rounded-2xl
+    gap-8 my-[50px]
+    md:hidden sm:hidden
+}
+.pageTextImage > div {
+    @apply
+    max-w-[396px]
+}
+.pageTextImageSwiper {
+    @apply
+    hidden flex-wrap rounded-2xl
+    gap-8 py-[50px]
+    md:flex sm:flex
+}
+
+/* SSS Secition */
+
+.sssSection {
+    @apply
+    container mx-auto
+    mt-[70px]
+}
+.sssHeader {
+    @apply
+    font-OpenSans font-semibold
+    text-lacivert text-[32px] leading-[44px]
+    mb-7 
+    flex w-full justify-end
+}
+.sssHeader > div {
+    @apply
+    flex justify-start w-full
+    max-w-[825px]
+}
+.sssAccordionCover {
+    @apply
+    flex flex-col items-end justify-center
+     w-full
+}
+.sssAccordionItem {
+    @apply
+    flex flex-col max-w-[825px] w-full
+    border-t-[1px] border-[#DDDFE7]
+    cursor-pointer
+}
+.sssAccordionTop {
+    @apply
+    py-[30px]
+    flex justify-between w-full
+}
+.sssAccordionHeader {
+    @apply
+    font-OpenSans font-semibold
+    text-lacivert text-[22px] leading-8
+}
+.sssAccordionIcon {
+    @apply
+    text-[#DDDFE7]
+}
+.sssAccordionContent {
+    @apply
+    font-OpenSans font-normal
+    text-lacivert text-sm
+    border-t-[1px] border-[#DDDFE7]
+    py-[22px]
+}

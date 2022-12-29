@@ -1,0 +1,67 @@
+.headerCover {
+    @apply
+    bg-mavi
+}
+.headerItem {
+    @apply
+    container mx-auto relative
+    flex justify-between items-center 
+    h-[150px] sm:h-[100px] xsm:h-[100px]
+    sm:px-4
+}
+.headerLogo {
+    @apply
+    max-w-[255px] md:max-w-[132px]
+    sm:max-w-[132px]
+}
+.navigation {
+    @apply
+    flex
+    md:hidden sm:hidden
+}
+.navigationItem {
+    @apply
+    flex items-center gap-7 text-white
+}
+.links {
+    @apply
+    font-Ubuntu font-normal text-base leading-5
+}
+.btn {
+    @apply
+    bg-turuncu border border-turuncu hover:bg-white hover:text-turuncu 
+    font-OpenSans text-base  font-semibold h-[42px] w-[145px] 
+    text-center leading-[42px] rounded-[9px] 
+    shadow-[0_3px_6px_rgba(0,70,126,0.15)]
+}
+.navigationMobile {
+    @apply
+    hidden
+    cursor-pointer
+    md:flex sm:flex
+    justify-center items-center
+}
+.navigationMobileMenu {
+    @apply
+    flex  absolute items-center justify-center
+    w-full top-[95px] text-white
+    z-50 pt-[50px]
+    bg-mavi h-screen
+}
+.navigationMobileMenuItemCover {
+    @apply
+    flex flex-col 
+    text-left justify-between
+}
+.navigationMobileMenuItem {
+    @apply
+    flex flex-col gap-9
+    h-[280px] 
+}
+.searchCompCover {
+    @apply
+    absolute z-[100]  left-2/4 -translate-x-2/4
+    w-full h-full bg-mavi
+    /* top-[150px] */
+    top-0
+}
