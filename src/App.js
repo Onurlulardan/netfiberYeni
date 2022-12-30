@@ -23,11 +23,13 @@ const Altyapi = lazy(() => import("./pages/Altyapi"));
 const App = () => {
   const [loading, setLoading] = useState(true);
 
-  window.addEventListener('load', function(event) {
-      setTimeout(function(){
+ 
+
+  useEffect(()=> {
+    setTimeout(function(){
         setLoading(false);
-    }, 1000);
-  });
+      }, 1000);
+  }, []);
 
   return (
     <div className="App">

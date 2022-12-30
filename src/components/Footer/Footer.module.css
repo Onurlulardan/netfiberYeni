@@ -24,7 +24,7 @@
     @apply
     flex flex-col 
     font-OpenSans font-semibold
-    text-white text-lg
+    text-white text-[14px]
     min-w-[140px] gap-5
     md:text-[14px] sm:text-[14px]
 }
