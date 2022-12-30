@@ -13,21 +13,23 @@
 .sliderItem {
     @apply
     container mx-auto 
-    relative 
-    xsm:min-h-[520px] xsm:h-full
-    xsm:flex xsm:items-end
+    relative max-h-[600px] min-h-[600px]
+    xsm:h-full 
+    sm:flex sm:items-end sm:justify-center
+    xsm:flex xsm:items-end xsm:justify-center
 }
 .sliderImgCover {
     @apply
     flex justify-end 
     -mr-[90px]
     md:justify-center sm:justify-center
-    xsm:h-full 
+    sm:h-[450px]
+    xsm:h-[450px]
 }
 .sliderImgCover > img {
     @apply
     bg-no-repeat bg-right-bottom 
-    xsm:bg-bottom 
+    xsm:bg-right-bottom 
 }
 .sliderText {
     @apply
