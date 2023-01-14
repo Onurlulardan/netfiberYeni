@@ -21,29 +21,26 @@ const Altyapi = lazy(() => import("./pages/Altyapi"));
 
 
 const App = () => {
-  const [loading, setLoading] = useState(true);
+  // const [loading, setLoading] = useState(true);
 
  
 
   useEffect(()=> {
-    setTimeout(function(){
-        setLoading(false);
-      }, 1500);
+    // setTimeout(function(){
+    //     setLoading(false);
+    //   }, 1500);
   }, []);
 
   return (
     <div className="App">
-      {loading ? (
+      {/* {loading ? (
         <div className="loader">
           <h1>Netfiber</h1>
           <InfinitySpin width='200' color="#396CAD" />
         </div>
-      ) : ""}
+      ) : ""} */}
       <Header/>
-      <Suspense fallback={<div className="loader">
-        <h1>Netfiber</h1>
-        <InfinitySpin width='200' color="#396CAD" />
-        </div>}>
+      <Suspense>
         <Routes>
           <Route path="/" element={ <Home/> } />
           <Route path="*" element={<PageNotFound />} />

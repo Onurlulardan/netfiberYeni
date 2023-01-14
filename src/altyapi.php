@@ -659,10 +659,7 @@
 				},
 				success: function(response) {
 
-					console.log(response);
-
-
-
+					console.log("t=>"+response);
 					$("#overlay").hide();
 
 
@@ -674,7 +671,7 @@
 			
 
 					tarifeler = jsn[0]['tarifeler'];
-
+                    console.log("t=>"+tarifeler);
 
 
 
@@ -1042,10 +1039,6 @@ var kapiSTR;
 											max_hiz = parseInt($(aa[5]).text());
 										else
 											max_hiz = "";
-
-
-										console.log("max hiz");
-										console.log(max_hiz);
 
 
 										bb.push(santral);
@@ -1649,7 +1642,7 @@ var kapiSTR;
 				cache: false,
 				data: {
 					f: 'save_altyapi',
-					adresid: adresid,
+					adresid: adresid.trim(),
 					adres: adrestext,
 					ceptel: musceptel,
 					sonuchtml:_sonucHTML,

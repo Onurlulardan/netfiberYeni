@@ -18,7 +18,7 @@
     @apply
     flex gap-16
     md:flex-wrap-reverse sm:flex-wrap-reverse
-    sm:justify-center sm:gap-8 xsm:gap-8
+    sm:justify-center sm:gap-4 xsm:gap-4
 }
 .footerContentLink {
     @apply

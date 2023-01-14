@@ -409,8 +409,8 @@ if (!isset($_GET['bbkid'])) {
 
 
                         <small class="form-text text-muted mb-2" style="font-size:14px">
-                            Hoş Geldiniz ! başvurunuza devam edebilmemiz ve sizinle başvuru sonrası
-                            iletişime geçebilmemiz için lütfen iletişim numaranızı yazınız
+                            Hoşgeldiniz Başvurunuza devam edebilmeniz için Cep telefonu numaranızı doğrulamanız gerekmektedir.Cep telefonu
+                            numaranızı basına 0 olmadan yazınız
                         </small>
                         <input type="hidden" id="verificationCode">
 
@@ -495,7 +495,7 @@ if (!isset($_GET['bbkid'])) {
                                     </div>
                                     <div class="md-form md-outline mt-0">
                                         <input onkeyup="adim1Kontrol()" @keypress="adim1Kontrol" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');" type="text" id="materialGsm" class="form-control">
-                                        <!-- <label for="materialGsm">GSM numaranız*</label> -->
+                                        <label for="materialGsm">GSM numaranız*</label>
                                         <small id="gsmConf" style="display:none;" class="form-text text-muted mb-4">Geçerli telefon numarası girin. Örn: (555) 555 55 55</small>
                                     </div>
                                     <div class="form-check form-check-inline">
@@ -2568,6 +2568,7 @@ if (!isset($_GET['bbkid'])) {
                         dogumay: dogumay,
                         dogumyil: dogumyil,
                         cuzdanseri: serino,
+                        kimliktipi: kimlikTipi,
 
                     },
                     success: function(response) {
